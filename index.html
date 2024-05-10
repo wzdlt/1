@@ -32,6 +32,24 @@
         <div class="header-input">
             <input type="text" placeholder="请输入关键词搜索">
         </div>
+        <button class="header-button">
+            <span>一</span>
+            <span>一</span>
+            <span>一</span>
+        </button>
+        <div class="yc">
+            <ul>
+                <li class="index"><a href="#">学院首页</a></li>
+                <li><a href="#">院系首页</a></li>
+                <li><a href="#">部门概况</a></li>
+                <li><a href="#">师资队伍</a></li>
+                <li><a href="#">思政建设</a></li>
+                <li><a href="#">红馆</a></li>
+                <li><a href="#">心理健康教育中心</a></li>
+                <li><a href="#">教学科研</a></li>
+                <li><a href="#">学生社团</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="swiper-container">
@@ -330,6 +348,7 @@
                     </a>
                 </li>
             </ul>
+            <a href="#" class="a">查看更多</a>
         </div>
        
     </div>
@@ -375,7 +394,22 @@
                 </div>
             </div>
         </div>
+
         <div class="container">
+            <div class="media">
+                <div class="media-img">
+                    <img src="./img/微信图片_202211181533372.jpg" alt="">
+                </div>
+                <div class="media-img">
+                    <img src="./img/微信图片_202211181533372.jpg" alt="">
+                </div>
+                <div class="media-img">
+                    <img src="./img/微信图片_202211181533372.jpg" alt="">
+                </div>
+                <div class="media-img">
+                    <img src="./img/微信图片_202211181533372.jpg" alt="">
+                </div>
+            </div>
             <ul>
                 <li>友情链接：</li>
                 <li>山东教育局</li>
@@ -387,6 +421,28 @@
                 <li>山东教育局</li>
                 <li>山东教育局</li>
             </ul>
+        </div>
+        <a href="#" class="a">查看更多</a>
+    </div>
+
+    <div class="commer-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="./img/logo.png" alt="">
+                </div>
+                <div class="footer-text">
+                    <span>地址:山东省烟台市高新区海天路1001号</span>
+                    <span>办公室电话:0535-293876</span>
+                </div>
+                <div class="footer-ewm">
+                    <img src="./img/ewm.jpg" alt="">
+                    <div class="none">微信公众号</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>Copyright ◎山东省城市服务技师学院版权所有</span>
         </div>
     </div>
 </body>
@@ -456,4 +512,8 @@
             }, 400);
         });
     }());
+    
+    $('.header-button').click(function() {
+        $('.yc').toggle(); // jQuery的toggle方法可以切换元素的显示与隐藏
+    });
 </script>
