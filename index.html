@@ -460,16 +460,19 @@
     });
 
     var swiper1 = new Swiper('.body-left', {
-
+        slidesPerView: 1, // 或者你设置为其他配置
+        control: swiper2, 
         pagination: '.swiper-pagination1',
         paginationClickable: true,
         spaceBetween: 30,
         centeredSlides: true,
-        autoplay: 2500,
-        autoplayDisableOnInteraction: false
+        autoplayDisableOnInteraction: false,
+        loop: true
     });
 
     var swiper2 = new Swiper('.body-right', {
+        slidesPerView: 1, // 或者你设置为其他配置
+        control: swiper1, 
         paginationType: 'fraction',
         pagination: '.swiper-pagination1',
         nextButton: '.swiper-button-next',
@@ -478,7 +481,6 @@
         spaceBetween: 30,
         centeredSlides: true,
         autoplay: 2500,
-        
         autoplayDisableOnInteraction: false,
         loop: true
     });
