@@ -259,23 +259,38 @@
         $('.yc').toggle(); // jQuery的toggle方法可以切换元素的显示与隐藏
     });
     $(document).ready(function() {
-        $('.three').on('click', function() {
-            // 切换.body-three和.body-one的显示状态
-            $('.body-three').show();
-            $('.body-one').hide();
-            $('.body-two').hide();
-        });
-        $('.one').on('click', function() {
+        $('.title .one').on('click', function() {
             // 切换.body-three和.body-one的显示状态
             $('.body-three').hide();
             $('.body-one').show();
             $('.body-two').hide();
+            // 更换.one的背景图片
+            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two.png)'); // 替换为新的图片路径
+            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three.png)'); // 替换为新的图片路径
+            // 更换.two的背景图片
+            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one-red.png)'); // 替换为新的图片路径
         });
-        $('.two').on('click', function() {
-        // 切换.body-three和.body-one的显示状态
-        $('.body-three').hide();
-        $('.body-one').hide();
-        $('.body-two').show();
-    });
-    });
+        $('.title .two').on('click', function() {
+            // 切换.body-three和.body-one的显示状态
+            $('.body-three').hide();
+            $('.body-one').hide();
+            $('.body-two').show();
+            // 更换.one的背景图片
+            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one.png)'); // 替换为新的图片路径
+            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three.png)'); // 替换为新的图片路径
+            // 更换.two的背景图片
+            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two-red.png)'); // 替换为新的图片路径
+        });
+        $('.title .three').on('click', function() {
+            // 切换.body-three和.body-one的显示状态
+            $('.body-three').show();
+            $('.body-one').hide();
+            $('.body-two').hide();
+            // 更换.one的背景图片
+            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one.png)'); // 替换为新的图片路径
+            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two.png)'); // 替换为新的图片路径
+            // 更换.two的背景图片
+            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three-red.png)'); // 替换为新的图片路径
+        });
+    })
 </script>
