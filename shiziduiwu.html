@@ -141,6 +141,47 @@
                         </div>
                     </div>
                 </div>
+                <div class="body-two">
+                    <div class="container-two">
+                        <div class="two-item">
+                            <div class="two-left">
+                                <img src="./img/3.png" alt="">
+                            </div>
+                            <div class="two-right">
+                                <p>传承八一精神 凝聚奋进力量|马克思主义学院第- 第二党支部开展主题...</p>
+                                <span>2021-05-21</span>
+                            </div>
+                        </div>
+                        <div class="two-item">
+                            <div class="two-left">
+                                <img src="./img/3.png" alt="">
+                            </div>
+                            <div class="two-right1">
+                                <p>传承八一精神 凝聚奋进力量|马克思主义学院第- 第二党支部开展主题...</p>
+                                <p class="none">新生开展“红色观影”德育课…</p>
+                                <span>2021-05-21</span>
+                            </div>
+                        </div>
+                        <div class="two-item">
+                            <div class="two-left">
+                                <img src="./img/3.png" alt="">
+                            </div>
+                            <div class="two-right2">
+                                <p>传承八一精神 凝聚奋进力量|马克思主义学院第- 第二党支部开展主题...</p>
+                                <span>2021-05-21</span>
+                            </div>
+                        </div>
+                        <div class="two-item">
+                            <div class="two-left">
+                                <img src="./img/3.png" alt="">
+                            </div>
+                            <div class="two-right3">
+                                <p>传承八一精神 凝聚奋进力量|马克思主义学院第- 第二党支部开展主题...</p>
+                                <span>2021-05-21</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="body-three">
                     <div class="container-three">
                         <div class="three-item">
@@ -218,14 +259,23 @@
         $('.yc').toggle(); // jQuery的toggle方法可以切换元素的显示与隐藏
     });
     $(document).ready(function() {
-    $('.three').on('click', function() {
+        $('.three').on('click', function() {
+            // 切换.body-three和.body-one的显示状态
+            $('.body-three').show();
+            $('.body-one').hide();
+            $('.body-two').hide();
+        });
+        $('.one').on('click', function() {
+            // 切换.body-three和.body-one的显示状态
+            $('.body-three').hide();
+            $('.body-one').show();
+            $('.body-two').hide();
+        });
+        $('.two').on('click', function() {
         // 切换.body-three和.body-one的显示状态
-        $('.body-three').show();
+        $('.body-three').hide();
         $('.body-one').hide();
-
-        // 更改背景图片
-        $('.three').css('background-image', 'url(../../img/three-red.png)');
-        $('.one').css('background-image', 'url(../img/one.png)');
+        $('.body-two').show();
     });
-});
+    });
 </script>
