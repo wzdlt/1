@@ -17,7 +17,7 @@
             <ul>
                 <li><a href="index.html">首页</a></li>
                 <li class="index"><a href="bumengaikuang.html">部门概况</a></li>
-                <li><a href="#">师资队伍</a></li>
+                <li><a href="shiziduiwu.html">师资队伍</a></li>
                 <li><a href="#">思政建设</a></li>
                 <li><a href="#">红馆</a></li>
                 <li><a href="#">心理健康教育中心</a></li>
@@ -35,10 +35,10 @@
         </button>
         <div class="yc">
             <ul>
-                <li class="index"><a href="#">学院首页</a></li>
+                <li class="index"><a href="index.html">首页</a></li>
                 <li><a href="#">院系首页</a></li>
-                <li><a href="#">部门概况</a></li>
-                <li><a href="#">师资队伍</a></li>
+                <li><a href="bumengaikuang.html">部门概况</a></li>
+                <li><a href="shiziduiwu.html">师资队伍</a></li>
                 <li><a href="#">思政建设</a></li>
                 <li><a href="#">红馆</a></li>
                 <li><a href="#">心理健康教育中心</a></li>
@@ -55,35 +55,38 @@
     <div class="commer-body">
         <div class="container">
             <!-- left列表 -->
-            <ul class="body-left">
-                <div class="title">
-                    <div class="nav">
-                        <div class="main">学院概况</div>
-                        <div class="main-es">College Profile</div>
+            <div class="body-left">
+                <ul>
+                    <div class="title">
+                        <div class="nav">
+                            <div class="main">学院概况</div>
+                            <div class="main-es">College Profile</div>
+                        </div>
                     </div>
-                </div>
-                <li>
-                    <a href="#">部门概况</a>
-                </li>
-                <li class="index">
-                    <a href="#">师资队伍</a>
-                </li>
-                <li>
-                    <a href="#">思政建设</a>
-                </li>
-                <li>
-                    <a href="#">红馆</a>
-                </li>
-                <li>
-                    <a href="#">心理健康教育中心</a>
-                </li>
-                <li>
-                    <a href="#">教学科研</a>
-                </li>
-                <li>
-                    <a href="#">学生社团</a>
-                </li>
-            </ul>
+                    <li>
+                        <a href="bumengaikuang.html">部门概况</a>
+                    </li>
+                    <li class="index">
+                        <a href="shiziduiwu.html">师资队伍</a>
+                    </li>
+                    <li>
+                        <a href="#">思政建设</a>
+                    </li>
+                    <li>
+                        <a href="#">红馆</a>
+                    </li>
+                    <li>
+                        <a href="#">心理健康教育中心</a>
+                    </li>
+                    <li>
+                        <a href="#">教学科研</a>
+                    </li>
+                    <li>
+                        <a href="#">学生社团</a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="body-right">
                 <div class="body-nav">
                     <div class="nav-left">
@@ -91,9 +94,9 @@
                     </div>
                     <div class="nav-right">
                         <span>当前所在位置：</span>
-                        <a href="#">首页</a>
+                        <a href="index.html">首页</a>
                         <span>></span>
-                        <a href="#">师资队伍</a>
+                        <a href="shiziduiwu.html">师资队伍</a>
                     </div>
                 </div>
                 <div class="title">
@@ -265,10 +268,10 @@
             $('.body-one').show();
             $('.body-two').hide();
             // 更换.one的背景图片
-            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two.png)'); // 替换为新的图片路径
-            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three.png)'); // 替换为新的图片路径
+            $('.two').css('background-image', 'url(./img/two.png)'); // 替换为新的图片路径
+            $('.three').css('background-image', 'url(./img/three.png)'); // 替换为新的图片路径
             // 更换.two的背景图片
-            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one-red.png)'); // 替换为新的图片路径
+            $('.one').css('background-image', 'url(./img/one-red.png)'); // 替换为新的图片路径
         });
         $('.title .two').on('click', function() {
             // 切换.body-three和.body-one的显示状态
@@ -276,10 +279,10 @@
             $('.body-one').hide();
             $('.body-two').show();
             // 更换.one的背景图片
-            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one.png)'); // 替换为新的图片路径
-            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three.png)'); // 替换为新的图片路径
+            $('.one').css('background-image', 'url(./img/one.png)'); // 替换为新的图片路径
+            $('.three').css('background-image', 'url(./img/three.png)'); // 替换为新的图片路径
             // 更换.two的背景图片
-            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two-red.png)'); // 替换为新的图片路径
+            $('.two').css('background-image', 'url(./img/two-red.png)'); // 替换为新的图片路径
         });
         $('.title .three').on('click', function() {
             // 切换.body-three和.body-one的显示状态
@@ -287,10 +290,10 @@
             $('.body-one').hide();
             $('.body-two').hide();
             // 更换.one的背景图片
-            $('.one').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/one.png)'); // 替换为新的图片路径
-            $('.two').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/two.png)'); // 替换为新的图片路径
+            $('.one').css('background-image', 'url(./img/one.png)'); // 替换为新的图片路径
+            $('.two').css('background-image', 'url(./img/two.png)'); // 替换为新的图片路径
             // 更换.two的背景图片
-            $('.three').css('background-image', 'url(file:///D:/Desktop/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/img/three-red.png)'); // 替换为新的图片路径
+            $('.three').css('background-image', 'url(./img/three-red.png)'); // 替换为新的图片路径
         });
     })
 </script>
