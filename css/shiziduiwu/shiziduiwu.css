@@ -5,7 +5,7 @@
   display: flex;
   width: 100%;
   height: 70px;
-  background-color: none;
+  background: linear-gradient(to right, #660103 0%, #9a0a06 50%, #660103 100%);
 }
 
 @media (max-width: 475px) {
@@ -13,13 +13,14 @@
     padding: 5px 10px;
     height: 40px;
     justify-content: space-between;
-    background: linear-gradient(to right, #660103 0%, #9a0a06 50%, #660103 100%);
   }
 }
 
 .commer-header .header-logo {
   width: 30%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .commer-header .header-logo img {
@@ -55,6 +56,7 @@
 
 .commer-header .header-nav ul li {
   font-weight: 400;
+  height: 100%;
 }
 
 .commer-header .header-nav ul li.index a {
@@ -62,11 +64,30 @@
 }
 
 .commer-header .header-nav ul li a {
-  line-height: 70px;
+  display: block;
+  height: 100%;
+  line-height: 60px;
   color: #fff;
 }
 
+.commer-header .input-img {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commer-header .input-img img {
+  width: 50%;
+}
+
 .commer-header .header-input {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  top: 50%;
   width: 20%;
   height: 100%;
   padding: 25px 10px;
