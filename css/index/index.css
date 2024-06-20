@@ -238,6 +238,7 @@
 @media (max-width: 475px) {
   .commer-news .container {
     width: 90%;
+    flex-wrap: wrap;
   }
 }
 

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/1/1.css">
+    <script src="./js/jquery-3.6.4.min.js"></script>
+    <script src="./js/1.js"></script>
+</head>
+<body>
+    <h3>青春不常在，抓紧谈恋爱</h3>
+    <div class="sex">
+        <div class="left">性别</div>
+        <div class="right">
+            <form>
+                <label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <span>男</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <span>女</span>
+                </label>
+            </form>
+        </div>
+    </div>
+    <div class="year">
+        <div class="left">生日</div>
+        <div class="right">
+            <form>
+                <select id="year">
+                    <option value="">年</option>
+                    <!-- 动态生成年份比较合适，这里只列出部分示例 -->
+                    <option value="1990">1990</option>
+                    <option value="1991">1991</option>
+                    <!-- ... 省略其他年份，实际应用中建议通过脚本动态生成 -->
+                    <option value="2023">2023</option>
+                </select>
+                <select id="month">
+                    <option value="">月</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <!-- ... 直至 -->
+                    <option value="12">12</option>
+                </select>
+                <select id="day">
+                    <option value="">日</option>
+                    <!-- 每个月的天数不同，这里简化处理 -->
+                    <option value="01">01</option>
+                    <!-- ... 直至 -->
+                    <option value="31">31</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <div class="left">所在地区</div>
+        <div class="right">
+            <input type="text">
+        </div>
+    </div>
+    <div class="marriage">
+        <div class="left">婚姻状况</div>
+        <div class="right">
+            <form>
+                <label>
+                    <input type="radio" name="gender" value="male" id="male">
+                    <span>未婚</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <span>已婚</span>
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female" id="female">
+                    <span>离婚</span>
+                </label>
+            </form>
+        </div>
+    </div>
+    <div class="xueli">
+        <div class="left">学历</div>
+        <div class="right">
+            <input type="text" placeholder="请输入">
+        </div>
+    </div>
+    <div class="leixing">
+        <div class="left">喜欢的类型</div>
+        <div class="right">
+            <form>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="music">
+                        音乐
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="movies">
+                        电影
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="sports">
+                        体育运动
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="reading">
+                        阅读
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="traveling">
+                        旅行
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="gaming">
+                        电子游戏
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="liketypes" value="cooking">
+                        烹饪
+                    </label>
+                    <!-- 可以继续添加更多的复选框 -->
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="my">
+        <div class="left">自我介绍</div>
+        <div class="right">
+            <textarea class="resize-input" rows="1" placeholder="在这里输入文字..."></textarea>
+        </div>
+    </div>
+    <div class="button">
+        <button>免费注册</button>
+    </div>
+    <div class="agreement">
+        <form>
+            <input type="checkbox" id="option1" name="choice" value="option1" checked>
+            <label for="option1">我同意注册条款和加入会员</label>
+        </form>
+        <a href="#">我是会员，立即登录</a>
+    </div>
+    <div class="footer">
+        <h2>我承诺</h2>
+        <ul>
+            <li>年满18岁、单身</li>
+            <li>抱着严肃的态度</li>
+            <li>真诚寻找另一半</li>
+        </ul>
+    </div>
+
+    <div class="xxk">
+        <div class="title">
+            <div class="html">HTML</div>
+            <div class="vue">Vue</div>
+            <div class="react">React</div>
+        </div>
+        <div class="text">
+            <div class="html">htmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtmlhtml</div>
+            <div class="vue">vuevuevuevuevuevuevuevuevuevuevuevuevuevuevuevue</div>
+            <div class="react">reactreactreactreactreactreactreactreactreactreactreactreactreact</div>
+        </div>
+    </div>
+</body>
+</html>

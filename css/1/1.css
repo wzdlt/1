@@ -1,0 +1,50 @@
+.sex, .year, .map, .marriage, .leixing, .my, .xueli {
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+}
+
+.sex .left, .year .left, .map .left, .marriage .left, .leixing .left, .my .left, .xueli .left {
+  width: 8%;
+}
+
+.button, .agreement, .footer {
+  margin: 10px 8%;
+}
+
+.xxk {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.xxk .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.xxk .title div {
+  border: 1px solid #000;
+  width: 30%;
+}
+
+.xxk .text {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.xxk .text .html {
+  display: block;
+  width: 100%;
+}
+
+.xxk .text .vue {
+  display: none;
+  width: 100%;
+}
+
+.xxk .text .react {
+  display: none;
+  width: 100%;
+}

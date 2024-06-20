@@ -201,6 +201,7 @@
         width: 80%;
         @media (max-width: 475px) {
             width: 90%;
+            flex-wrap: wrap;
         }
         .news-title {
             position: relative;
